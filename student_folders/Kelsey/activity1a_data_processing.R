@@ -17,6 +17,8 @@ table(rikz.data$week)
 str(rikz.data)
 
 ### Step 3. Process data for analysis
+
+# Convert beach to categorical for analysis
 rikz.data$Beach <- as.character(rikz.data$Beach)
 
 ### Step 4. Save processed data
